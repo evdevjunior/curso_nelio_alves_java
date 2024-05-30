@@ -12,17 +12,31 @@ public class ValorDasPecas {
 
         Locale.setDefault(Locale.US);
 
-        double codigoPeca;
-        int quantidadePeca;
-        double valorPeca;
+        double codigoPeca1;
+        double codigoPeca2;
+        int quantidadePeca1;
+        int quantidadePeca2;
+        double valorPeca1;
+        double valorPeca2;
+        double valorTotalPeca1;
+        double valorTotalPeca2;
 
         Scanner sc = new Scanner(System.in);
 
-        codigoPeca = sc.nextDouble();
-        quantidadePeca = sc.nextInt();
-        valorPeca = sc.nextDouble();
+        codigoPeca1 = sc.nextDouble();
+        quantidadePeca1 = sc.nextInt();
+        valorPeca1 = sc.nextDouble();
 
-        System.out.println("VALOR A SER PAGO R$ " + quantidadePeca * valorPeca);
+        codigoPeca2 = sc.nextDouble();
+        quantidadePeca2 = sc.nextInt();
+        valorPeca2 = sc.nextDouble();
+
+        valorTotalPeca1 = (quantidadePeca1 * valorPeca1);
+        valorTotalPeca2 = (quantidadePeca2 * valorPeca2);
+
+        double valorTotalPecas = (valorTotalPeca1 + valorTotalPeca2);
+
+        System.out.println("VALOR A SER PAGO PELAS PEÇAS R$ " + valorTotalPecas);
         
     }
 
