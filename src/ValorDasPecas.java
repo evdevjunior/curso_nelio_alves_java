@@ -37,6 +37,7 @@ public class ValorDasPecas {
         double valorTotalPecas = (valorTotalPeca1 + valorTotalPeca2);
 
         System.out.println("VALOR A SER PAGO PELAS PEÇAS R$ " + valorTotalPecas);
+        sc.close();
         
     }
 

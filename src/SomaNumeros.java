@@ -18,6 +18,7 @@ public class SomaNumeros {
         soma = (x + y);
 
         System.out.println(soma);
+        sc.close();
     }
     
 }
