@@ -21,7 +21,7 @@ public class SalarioFuncionario {
         funcionario_id = sc.nextInt();
         horasTrabalhada = sc.nextDouble();
         valorHora = sc.nextDouble();
-        double salario = (double) (horasTrabalhada * valorHora); 
+        double salario = (horasTrabalhada * valorHora); 
 
         System.out.println("ID_FUNCIONARIO : " + funcionario_id);
         System.out.println("SALARIO : " + salario);
