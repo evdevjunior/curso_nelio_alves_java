@@ -28,6 +28,6 @@
 
 ![Alt text](/src/assets/exercicio_6.jpeg?raw=true "Imagem do sexto Exercicio")
 
-## CODIGO = [Exercicio 6](https://github.com/evdevjunior/curso_nelio_alves_java/blob/main/src/CalculoDasFormsGeometricas.java)
+## CODIGO = [Exercicio 6](https://github.com/evdevjunior/curso_nelio_alves_java/blob/main/src/CalculoDasFormasGeometricas.java)
 
 ## "Que bom que chegou até aqui, veja meu código no diretório e pode deixar um feedback para me ajudar a melhorar minhas habilidades, obrigado".
