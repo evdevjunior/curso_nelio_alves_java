@@ -42,7 +42,7 @@ public class FuncoesParaStrings {
         String letrasJuntaString = nome.concat(" Filho");   // Concatena, Junta a String, Adiciona
         System.out.println(nome + " --- > " + letrasJuntaString);
 
-        String vetor [] = nome.split(" ");  // Recorta a String pelo Separador Passado como Parametro ex: " " espaço em branco
+        String [] vetor = nome.split(" ");  // Recorta a String pelo Separador Passado como Parametro ex: " " espaço em branco
         String vetor1 = vetor[0];
         String vetor2 = vetor[1];
         String vetor3 = vetor[2];
