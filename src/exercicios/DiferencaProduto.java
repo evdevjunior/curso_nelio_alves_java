@@ -1,3 +1,5 @@
+package exercicios;
+
 import java.util.Scanner;
 
 /* Fazer um programa para ler quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto 
@@ -18,7 +20,7 @@ public class DiferencaProduto {
         C = sc.nextDouble();
         D = sc.nextDouble();
 
-        double produto = (A * B - C * D);
+        double produto = (A * B - C * D);   // Calcula a diferença dos produtos (AB) pelo (CD)
 
         System.err.println("A diferença do produto (AB) pelo produto (CD) é : " + produto);
         sc.close();

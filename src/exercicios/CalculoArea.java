@@ -1,4 +1,4 @@
-
+package exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -19,9 +19,9 @@ public class CalculoArea {
         double A;
         double raio;
         raio = sc.nextDouble();
-        A = Math.PI*raio*raio;
+        A = Math.PI*raio*raio;  // Calcula a área do circulo utilizando o método para calculos matematicos do Java Lang, MATH e PI
         
-        System.out.printf("A = %.4f", A);
+        System.out.printf("A = %.4f", A);   // Print formatado em quatro casas decimeis formatando o Float
         sc.close();
         
     }

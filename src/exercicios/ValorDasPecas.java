@@ -1,3 +1,4 @@
+package exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -36,6 +37,7 @@ public class ValorDasPecas {
 
         double valorTotalPecas = (valorTotalPeca1 + valorTotalPeca2);
 
+        System.out.printf("Código das Pecas: ", codigoPeca1 + " : " + codigoPeca2);
         System.out.println("VALOR A SER PAGO PELAS PEÇAS R$ " + valorTotalPecas);
         sc.close();
         

@@ -1,3 +1,4 @@
+package exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -25,7 +26,7 @@ public class CalculoDasFormasGeometricas {
         double quadrado;
         double retangulo;
 
-        Scanner sc = new Scanner(System.in); // usa a lib Scanner paravpegar dados e atribuir as variaveis
+        Scanner sc = new Scanner(System.in); // usa a classe Scanner para pegar dados e atribuir as variaveis
 
         A = sc.nextDouble();
         B = sc.nextDouble();

@@ -1,3 +1,4 @@
+package exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -21,7 +22,7 @@ public class SalarioFuncionario {
         funcionario_id = sc.nextInt();
         horasTrabalhada = sc.nextDouble();
         valorHora = sc.nextDouble();
-        double salario = (horasTrabalhada * valorHora); 
+        double salario = (horasTrabalhada * valorHora); // Calcula o total do salário pelas horas trabalhadas
 
         System.out.println("ID_FUNCIONARIO : " + funcionario_id);
         System.out.println("SALARIO : " + salario);

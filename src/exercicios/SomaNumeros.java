@@ -1,3 +1,4 @@
+package exercicios;
 
 import java.util.Scanner;
 
@@ -15,10 +16,10 @@ public class SomaNumeros {
         int soma;
         x = sc.nextInt();
         y = sc.nextInt();
-        soma = (x + y);
+        soma = (x + y); // Simples soma de dois números
 
-        System.out.println(soma);
-        sc.close();
+        System.out.println(soma);   // Printa a o resultado da soma
+        sc.close(); // Fecha o Scanner
     }
     
 }
